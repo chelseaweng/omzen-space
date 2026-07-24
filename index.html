@@ -24,15 +24,41 @@
       font-weight: 400;
       font-display: swap;
     }
+    @font-face {
+      font-family: 'KazukiReiwa';
+      src: url('assets/fonts/KazukiReiwa-title.woff2') format('woff2');
+      font-style: normal;
+      font-weight: 400;
+      font-display: swap;
+      unicode-range: U+7C73, U+9999, U+82D1;
+    }
     :root {
       --type-serif: "SweiSpringCJKtc-Regular", "Piazzolla", serif;
       --type-caps: "SweiSpringCJKtc-Regular", "Piazzolla SC", serif;
     }
     body,
-    .particles-title,
     .particles-subtitle,
     h1, h2, h3, h4, h5, h6 {
       font-family: "SweiSpringCJKtc-Regular", "Piazzolla", serif;
+    }
+    .particles-title {
+      font-family: "KazukiReiwa", "SweiSpringCJKtc-Regular", "Piazzolla", serif;
+      font-weight: 400;
+      margin-bottom: 0.45em;
+    }
+    .particles-subtitle {
+      font-size: 0.85em;
+      line-height: 1.6;
+      margin-top: 0.55em;
+    }
+    @media screen and (min-width: 768px) {
+      .particles-title {
+        margin-bottom: 0.55em;
+      }
+      .particles-subtitle {
+        font-size: 1em;
+        margin-top: 0.65em;
+      }
     }
     .particles-socials {
       display: flex;
@@ -87,9 +113,6 @@
         -webkit-transform: scale(2.4);
         transform: scale(2.4);
       }
-    }
-    .particles-subtitle {
-      line-height: 1.6;
     }
     .particles-photo {
       width: 50%;
@@ -173,7 +196,7 @@
 
 <p>我是子媚</p>
 
-<p>生命是一場向內探索的旅程。當生活面臨抉擇、內心感到迷茫，或是與身邊珍視的夥伴（不論是親友或寵物）陷入溝通障礙時，米香苑 是你隨時可以停靠的港灣。</p>
+<p>生命是一場向內探索的旅程。當生活面臨抉擇、內心感到迷茫，或是渴望與身邊珍視的夥伴（不論是親友或寵物）建立更深層的連結，米香苑 是你隨時可以停靠的港灣。</p>
 
 <p>我們以深厚的佛法哲理為根基，安定內心、澄澈智慧；並以多元的命理占卜為指引，協助你在困頓中洞悉未來的可能性。在這裡，我們不給予定型化的答案，而是透過深刻的自我覺察與空間能量調和，陪你重新找回內心的力量與秩序。</p>
 

@@ -9,6 +9,16 @@
 }
 
 @font-face {
+  font-family: 'KazukiReiwa';
+  src: url('../fonts/KazukiReiwa-title.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  text-rendering: optimizeLegibility;
+  unicode-range: U+7C73, U+9999, U+82D1;
+}
+
+@font-face {
   font-family: 'Piazzolla';
   src: url('../fonts/Piazzolla-Light.woff2') format('woff2');
   font-style: normal;

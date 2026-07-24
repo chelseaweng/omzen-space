@@ -6,6 +6,14 @@
   font-display: swap;
   text-rendering: optimizeLegibility; }
 @font-face {
+  font-family: 'KazukiReiwa';
+  src: url("../fonts/KazukiReiwa-title.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  text-rendering: optimizeLegibility;
+  unicode-range: U+7C73, U+9999, U+82D1; }
+@font-face {
   font-family: 'Piazzolla';
   src: url("../fonts/Piazzolla-Light.woff2") format("woff2");
   font-style: normal;
@@ -359,14 +367,15 @@ a.reversefootnote {
   margin-bottom: 0.5em; }
 
 .particles-title {
-  margin: 0;
+  margin: 0 0 0.45em 0;
+  font-family: "KazukiReiwa", "SweiSpringCJKtc-Regular", "Piazzolla", serif;
   font-size: 2.5em;
-  font-weight: 500;
+  font-weight: 400;
   white-space: nowrap; }
 
 .particles-subtitle {
-  margin: 0 0 1em 0;
-  font-size: 1.25em;
+  margin: 0.55em 0 1em 0;
+  font-size: 0.85em;
   font-weight: 400;
   line-height: 1.6; }
 
@@ -507,10 +516,12 @@ a.pagination-item {
     font-size: 1.25em; }
 
   .particles-title {
-    font-size: 3.5em; }
+    font-size: 3.5em;
+    margin-bottom: 0.55em; }
 
   .particles-subtitle {
-    font-size: 1.75em; }
+    font-size: 1em;
+    margin-top: 0.65em; }
 
   .particles-icon {
     margin: 0 1em; }
