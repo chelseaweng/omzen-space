@@ -44,7 +44,19 @@
       transform: scale(2.4);
     }
 
-    .line-icon {
+    .social-img-icon {
+      -webkit-transform: scale(2.4);
+      transform: scale(2.4);
+    }
+  }
+
+  .particles-socials {
+    a {
+      width: 3.5em;
+      height: 3.5em;
+    }
+
+    .social-img-icon {
       -webkit-transform: scale(2.4);
       transform: scale(2.4);
     }

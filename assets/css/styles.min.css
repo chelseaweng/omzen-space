@@ -385,7 +385,7 @@ a.reversefootnote {
     line-height: 0; }
     .particles-socials a:focus, .particles-socials a:hover {
       border: none; }
-  .particles-socials .line-icon {
+  .particles-socials .social-img-icon {
     display: block;
     width: 24px;
     height: 24px;
@@ -517,8 +517,8 @@ a.pagination-item {
     .particles-icon svg {
       -webkit-transform: scale(2.4);
       transform: scale(2.4); }
-    .particles-icon .line-icon,
-    .particles-socials .line-icon {
+    .particles-icon .social-img-icon,
+    .particles-socials .social-img-icon {
       -webkit-transform: scale(2.4);
       transform: scale(2.4); }
 

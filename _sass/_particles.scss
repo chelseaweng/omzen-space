@@ -55,15 +55,18 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  gap: 1.5em;
+  gap: 1.75em;
   flex-wrap: nowrap;
 
   a {
     display: inline-flex;
     align-items: center;
     justify-content: center;
+    width: 2.75em;
+    height: 2.75em;
     pointer-events: all;
     line-height: 0;
+    margin: 0;
 
     &:focus,
     &:hover {
@@ -71,7 +74,11 @@
     }
   }
 
-  .line-icon {
+  .particles-icon {
+    margin: 0;
+  }
+
+  .social-img-icon {
     display: block;
     width: 24px;
     height: 24px;

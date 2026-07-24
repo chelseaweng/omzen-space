@@ -9,8 +9,11 @@
       {% if site.profile.instagram %}
       <a class="particles-icon" href="{{ site.profile.instagram }}">{% include svg/instagram.svg %}</a>
       {% endif %}
+      {% if site.profile.youtube %}
+      <a class="particles-icon" href="{{ site.profile.youtube }}" title="YouTube">{% include svg/youtube.svg %}</a>
+      {% endif %}
       {% if site.profile.line %}
-      <a class="particles-icon" href="{{ site.profile.line }}" title="加入 LINE @663vuceb"><img class="line-icon" src="{{ '/assets/files/line-icon.png' | relative_url }}" alt="加入 LINE"></a>
+      <a class="particles-icon" href="{{ site.profile.line }}" title="加入 LINE @663vuceb" target="_blank" rel="noopener"><img class="social-img-icon" src="{{ '/assets/files/line-icon.png' | relative_url }}" alt="加入 LINE"></a>
       {% endif %}
       {% if site.author.email %}
       <a class="particles-icon" href="mailto:{{ site.author.email }}">{% include svg/mail.svg %}</a>
