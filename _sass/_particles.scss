@@ -91,6 +91,11 @@
     transform: scale(1.8);
     filter: invert(1);
   }
+
+  .particles-icon--daily svg {
+    -webkit-transform: scale(2.35);
+    transform: scale(2.35);
+  }
 }
 
 .nowrap {
