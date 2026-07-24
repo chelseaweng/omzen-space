@@ -5,6 +5,10 @@ photo: assets/files/avatar.png
 baseurl: ""
 url: "https://omzen.space"
 
+# Google Analytics 4 評估 ID（格式：G-XXXXXXXXXX）
+# 建立方式見 PR 說明；也可只改 assets/js/analytics-config.js
+google_analytics: "G-D7S56DNLLV"
+
 author:
   name: "子媚"
   email: "omahum110@gmail.com"

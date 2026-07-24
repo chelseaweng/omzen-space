@@ -1,0 +1,9 @@
+{% if site.google_analytics and site.google_analytics != "" %}
+<script>
+  window.OMZEN_GA_ID = "{{ site.google_analytics }}";
+</script>
+<script src="{{ '/assets/js/analytics.js' | prepend: site.url }}" defer></script>
+{% else %}
+<script src="{{ '/assets/js/analytics-config.js' | prepend: site.url }}"></script>
+<script src="{{ '/assets/js/analytics.js' | prepend: site.url }}" defer></script>
+{% endif %}
