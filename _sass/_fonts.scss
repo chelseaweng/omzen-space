@@ -1,4 +1,14 @@
 @font-face {
+  font-family: 'SweiSpringCJKtc-Regular';
+  src: url('https://cdn.jsdelivr.net/gh/max32002/swei-spring@1.068/WebFont/CJK%20TC/SweiSpringCJKtc-Regular.woff2') format('woff2'),
+       url('https://cdn.jsdelivr.net/gh/max32002/swei-spring@1.068/WebFont/CJK%20TC/SweiSpringCJKtc-Regular.woff') format('woff');
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  text-rendering: optimizeLegibility;
+}
+
+@font-face {
   font-family: 'Piazzolla';
   src: url('../fonts/Piazzolla-Light.woff2') format('woff2');
   font-style: normal;
